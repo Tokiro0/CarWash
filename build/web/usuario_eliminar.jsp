@@ -7,19 +7,19 @@
 %>
 
 <form action="ctrlUsuario" method="post">
-    Id <br><!-- comment -->
+    Id <br>
     <input type="text" class="form-control" name="usuario_id" style="width: 30%" readonly value="<%=u.getUsuario_id()%>"> <br>
-    Nombre <br><!-- comment -->
+    Nombre <br>
     <input type="text" class="form-control" name="usuario_nombre" style="width: 30%" readonly value="<%=u.getUsuario_nombre()%>"> <br>
-    Apellido <br><!-- comment -->
+    Apellido <br>
     <input type="text" class="form-control" name="usuario_apellido" style="width: 30%" readonly value="<%=u.getUsuario_apellido()%>"> <br>
-    Correo <br><!-- comment -->
+    Correo <br>
     <input type="text" class="form-control" name="usuario_correo" style="width: 30%" readonly value="<%=u.getUsuario_correo()%>"> <br>
-    Telefono <br><!-- comment -->
-    <input type="text" class="form-control" name="usuario_telefono" style="width: 30%" readonly value="<%=u.getUsuario_telefono()%>"> <br><br> 
-    Nombre <br><!-- comment -->
+    Telefono <br>
+    <input type="text" class="form-control" name="usuario_telefono" style="width: 30%" readonly value="<%=u.getUsuario_telefono()%>"> <br> 
+    Nombre <br>
     <input type="text" class="form-control" name="usuario_password" style="width: 30%" readonly value="<%=u.getUsuario_password()%>"> <br>
-    Nombre <br><!-- comment -->
+    Nombre <br>
     <input type="text" class="form-control" name="usuario_rol" style="width: 30%" readonly value="<%=u.getUsuario_rol()%>"> <br>
     
     <input type="hidden" name="pagina" value="usuario_eliminar">

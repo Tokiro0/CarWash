@@ -4,9 +4,9 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/INGLES/CICLOVII/SOLUCIONES%20WEB/T3%20ULTIMO/NUEVO/SWAD_JSP_Login_3/src/java/pe/edu/dao/DAO.java</file>
-            <file>file:/D:/INGLES/CICLOVII/SOLUCIONES%20WEB/T3%20ULTIMO/NUEVO/SWAD_JSP_Login_3/src/java/pe/com/upn/tablas/Cita.java</file>
-            <file>file:/D:/INGLES/CICLOVII/SOLUCIONES%20WEB/T3%20ULTIMO/NUEVO/SWAD_JSP_Login_3/src/java/pe/com/upn/tablas/Usuario.java</file>
-            <file>file:/D:/INGLES/CICLOVII/SOLUCIONES%20WEB/T3%20ULTIMO/NUEVO/SWAD_JSP_Login_3/web/cita_ver.jsp</file>
+            <file>file:/D:/INGLES/CICLOVII/SOLUCIONES%20WEB/T3%20ULTIMO/NUEVO/SWAD_JSP_Login_3/src/java/pe/edu/dao/entity/Producto.java</file>
+            <file>file:/D:/INGLES/CICLOVII/SOLUCIONES%20WEB/T3%20ULTIMO/NUEVO/SWAD_JSP_Login_3/web/producto_listar.jsp</file>
+            <file>file:/D:/INGLES/CICLOVII/SOLUCIONES%20WEB/T3%20ULTIMO/NUEVO/SWAD_JSP_Login_3/src/java/pe/edu/dao/impl/ProductoImpl.java</file>
         </group>
     </open-files>
 </project-private>

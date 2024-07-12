@@ -56,7 +56,7 @@ public class ctrlProducto extends HttpServlet {
             response.sendRedirect("dashProd.jsp?pagina=producto_listar");
         } else if (pag.equals("producto_eliminar")) {
             producto.eliminar(cod);
-            response.sendRedirect("dashProd.jsp?pagina=producto_eliminar");
+            response.sendRedirect("dashProd.jsp?pagina=producto_listar");
         
         } else if (pag.equals("producto_editar")) {
             producto.editar(cod, nom, desc, cant);

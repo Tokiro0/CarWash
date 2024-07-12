@@ -1,25 +1,25 @@
-<%@page import="pe.com.upn.tablas.Producto" %>
+<%@page import="pe.edu.dao.impl.ProductoImpl"%>
 
 <% 
     String prod= request.getParameter("producto");
-    Producto a = new Producto();
-    a=a.ver(prod);
+    ProductoImpl a = new ProductoImpl();
+    a.ver(prod);
 %>
 <form action="ctrlProducto" method="post">
     <input type="hidden" name="pagina" value="producto_editar">
     <div class="row">
         <br><br>
         <div class="col-sm-4">            
-            Codigo <br><!-- comment -->
+            Codigo <br>
             <input type="text" class="form-control" name="codigo" style="width: 90%" readonly value="<%=a.getCodigo()%>"> <br>
-            Producto <br><!-- comment -->
-            <input type="text" class="form-control" name="nombre" style="width: 90%" value="<%=a.getNombre()%>"><!-- comment -->    
+            Producto <br>
+            <input type="text" class="form-control" name="nombre" style="width: 90%" value="<%=a.getNombre()%>">   
         </div>
         <div class="col-sm-4">
-            Descripcion<br><!-- comment -->
-            <input type="text" class="form-control" name="descripcion" style="width: 90%" value="<%=a.getDescripcion()%>"> <br><!-- comment -->        
-            Cantidad<br><!-- comment -->
-            <input type="number" class="form-control" name="cantidad" style="width: 90%" value="<%=a.getCantidad()%>"><br>
+            Descripcion<br>
+            <input type="text" class="form-control" name="descripcion" style="width: 90%" value="<%=a.getDescripcion()%>"> <br>       
+            Cantidad<br>
+            <input type="number" class="form-control" name="cantidad" style="width: 90%" value="<%=a.getCantidad()%>"><br><br>
         </div>
         <div class="col-sm-4"></div>
     </div>

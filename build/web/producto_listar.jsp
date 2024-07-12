@@ -1,9 +1,10 @@
-<%@page import="pe.com.upn.tablas.Producto" %>
+<%@page import="pe.edu.dao.entity.Producto"%>
+<%@page import="pe.edu.dao.impl.ProductoImpl"%>
 <%@page import="java.util.LinkedList" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%
-    Producto prd = new Producto();
+    ProductoImpl prd = new ProductoImpl();
     LinkedList<Producto> lista = new LinkedList<>();
     lista = prd.listar();
 %>
