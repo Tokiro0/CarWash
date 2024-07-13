@@ -1,11 +1,10 @@
-<%@page import="pe.com.upn.tablas.Usuario" %>
+<%@page import="pe.edu.dao.impl.UsuarioImpl"%>
+
 <% 
     String usua= request.getParameter("usuario");
-    Usuario a = new Usuario();
-    a=a.ver(usua);
+    UsuarioImpl a = new UsuarioImpl();
+    a.ver(usua);
 %>
-
-
 
 <form action="ctrlUsuario" method="post">
     <input type="hidden" name="pagina" value="usuario_editar">

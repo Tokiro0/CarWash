@@ -119,5 +119,9 @@ public class ProductoImpl extends Producto implements DAO<Producto> {
             System.out.println(e.getMessage());
         }
     }
-    
+
+    @Override
+    public String obtenerUsuarioIdPorCorreo(String correo) {
+        return null;
+    }    
 }

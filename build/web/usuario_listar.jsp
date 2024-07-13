@@ -1,9 +1,10 @@
-<%@page import="pe.com.upn.tablas.Usuario" %>
+<%@page import="pe.edu.dao.entity.Usuario"%>
+<%@page import="pe.edu.dao.impl.UsuarioImpl"%>
+
 <%@page import="java.util.LinkedList" %>
 
-
 <%
-    Usuario usr = new Usuario();
+    UsuarioImpl usr = new UsuarioImpl();
     LinkedList<Usuario> lista = new LinkedList<>();
     lista = usr.listar();
 %>

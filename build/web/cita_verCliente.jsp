@@ -45,7 +45,7 @@
 
     <div class="col-sm-7 contenido">
         <center style="margin-top: 80px">
-            <img src="imagenes/carwash.jpeg" alt="logo" width="900px" >
+            <img src="imagenes/lavador.jpg" alt="logo" width="900px" >
         </center>
     </div>
 </div>

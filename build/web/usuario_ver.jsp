@@ -1,9 +1,9 @@
-<%@page import="pe.com.upn.tablas.Usuario" %>
+<%@page import="pe.edu.dao.impl.UsuarioImpl"%>
 
 <%
     String usr = request.getParameter("usuario");
-    Usuario u = new Usuario();
-    u = u.ver(usr);
+    UsuarioImpl u = new UsuarioImpl();
+    u.ver(usr);
 %>
 
 <form action="dashboard.jsp?pagina=usuario_listar" method="post">
